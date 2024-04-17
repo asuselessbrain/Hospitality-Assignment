@@ -9,7 +9,6 @@
     • Use email and password-based authentication.
     • Include options for Google login and one other social media login.
     • Link to the Register page
-    • Display error if credentials don't match.
 
 # Register Page:
 
