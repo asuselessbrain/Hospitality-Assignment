@@ -34,6 +34,6 @@ Implement dynamic titles for each page.
 
 # Using packages:
 
-a. AOS Package,
-b. React Hook form,
-c. Swiper slider
+    • AOS Package,
+    • React Hook form,
+    • Swiper slider
