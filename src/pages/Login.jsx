@@ -1,7 +1,8 @@
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "./AuthProvider";
 import { useForm } from "react-hook-form";
+import { FaEye, FaEyeSlash } from 'react-icons/fa';
 
 
 const Login = () => {
@@ -13,13 +14,17 @@ const Login = () => {
 
     const { signInUser, signInWithGoogle, signInWithGithub, signInWithFacebook } = useContext(AuthContext);
 
+
+    const [showPassword, setShowPassword] = useState(false);
+
     const navigate = useNavigate();
     const location = useLocation();
     const from = location?.state || '/';
 
-    const handleSocialLogin = socialProvider => {
+
+    const handleSocialLogin = (socialProvider) => {
         socialProvider()
-            .then(result => {
+            .then((result) => {
                 if (result.user) {
                     navigate(from);
                 }
@@ -70,16 +75,24 @@ const Login = () => {
 
                                     {errors.email && <span className="text-red-600">Email is required</span>}
                                 </div>
-                                <div>
-                                    <label className="mb-2 text-lg">Password</label>
-                                    <input
-                                        id="password"
-                                        className="border p-3 shadow-md placeholder:text-base focus:scale-105 ease-in-out duration-300 border-gray-300 rounded-lg w-full"
-                                        type="password"
-                                        placeholder="Password"
-                                        {...register("password", { required: true })} />
+                                <div className="py-2">
+                                    <span className="px-1 text-sm text-gray-600">Password</span>
+                                    <div className="relative">
+                                        <input type={showPassword ? "text" : "password"} className="border p-3 shadow-md placeholder:text-base focus:scale-105 ease-in-out duration-300 border-gray-300 rounded-lg w-full" placeholder="Password"
+                                            {...register("password", { required: true })} />
 
-                                    {errors.password && <span className="text-red-600">Password is required</span>}
+                                        {errors.password && <span className="text-red-600">Password is required</span>}
+
+                                        <div className="absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5">
+
+                                            <span onClick={() => setShowPassword(!showPassword)}>
+                                                {
+                                                    showPassword ? <FaEye /> : <FaEyeSlash />
+                                                }
+                                            </span>
+
+                                        </div>
+                                    </div>
                                 </div>
                                 <a
                                     className="group text-blue-400 transition-all duration-100 ease-in-out"
@@ -98,7 +111,7 @@ const Login = () => {
                                 <p>Do not have an account?</p>
                                 <Link to="/sign-up" className="bg-left-bottom bg-gradient-to-r from-blue-400 to-blue-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out group text-blue-400">Sign Up</Link>
                             </div>
-                            {/* <!-- Third Party Authentication Options --> */}
+
                             <div
                                 id="third-party-auth"
                                 className="flex items-center justify-center mt-5 flex-wrap"
@@ -123,6 +136,9 @@ const Login = () => {
                                         alt="Github"
                                     />
                                 </button>
+                                <div>
+
+                                </div>
                                 <button
                                     onClick={() => handleSocialLogin(signInWithFacebook)}
                                     className="hover:scale-105 ease-in-out duration-300 shadow-lg p-2 rounded-lg m-1"
