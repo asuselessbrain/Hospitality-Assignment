@@ -1,0 +1,144 @@
+[{
+    "id": 1,
+    "estate_title": "Seaside Resort Villa",
+    "segment_name": "Resort",
+    "description": "Experience a luxurious escape at the Seaside Resort Villa, where opulence meets serenity. This exquisite villa boasts stunning ocean views, inviting you to indulge in the tranquility of the seaside. With a private pool and access to exclusive beachfront amenities, every moment here is a retreat into blissful relaxation. The spacious accommodations provide ample room to unwind and rejuvenate, while the elegant design and upscale amenities ensure a truly lavish experience. Whether you're lounging by the infinity pool, savoring a gourmet meal prepared by your private chef, or enjoying a game of tennis, every aspect of your stay is tailored to perfection. From the moment you arrive, you'll be enchanted by the beauty of the surroundings and the unparalleled level of service. Seaside Resort Villa offers the ultimate getaway for those seeking luxury, comfort, and tranquility by the sea.",
+    "price": "$800",
+    "status": "available",
+    "area": "6000 sq ft",
+    "location": "Seaside",
+    "facilities": [
+        "Infinity Pool",
+        "Private Chef",
+        "Tennis Court"
+    ],
+    "image": "https://images.pexels.com/photos/3320508/pexels-photo-3320508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+},
+{
+    "id": 2,
+    "estate_title": "Urban Boutique Hotel",
+    "segment_name": "Hotel",
+    "description": "Discover the epitome of urban chic at the Urban Boutique Hotel, a stylish retreat nestled in the heart of the bustling city center. Blending modern sophistication with vibrant energy, this boutique hotel offers a unique experience for discerning travelers. From the moment you step inside, you'll be captivated by the sleek design, contemporary furnishings, and warm hospitality. Each room is thoughtfully appointed with luxurious amenities and creature comforts, ensuring a restful stay after a day of exploration. Whether you're lounging on the rooftop bar, working out in the fitness center, or seeking recommendations from the attentive concierge, every moment at the Urban Boutique Hotel is designed to exceed your expectations. Immerse yourself in the vibrant nightlife, eclectic dining scene, and cultural attractions just steps away from your door. Whether you're visiting for business or leisure, the Urban Boutique Hotel offers a truly unforgettable experience in the heart of the city.",
+    "price": "$250",
+    "status": "available",
+    "area": "3500 sq ft",
+    "location": "Urban Center",
+    "facilities": [
+        "Rooftop Bar",
+        "Fitness Center",
+        "Concierge Service"
+    ],
+    "image": "https://images.pexels.com/photos/1838640/pexels-photo-1838640.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+},
+{
+    "id": 3,
+    "estate_title": "Mountain Chalet Retreat",
+    "segment_name": "Vacation Rental",
+    "description": "Retreat to the serene beauty of the mountains at the Mountain Chalet Retreat, where cozy comfort meets breathtaking scenery. Tucked away in a snowy mountain village, this charming chalet offers the perfect escape for winter adventurers and nature lovers alike. Step inside to discover a warm and inviting ambiance, with rustic furnishings, a crackling fireplace, and panoramic views of the snow-covered peaks. Whether you're hitting the slopes for a day of skiing, soaking in the hot tub under the starlit sky, or simply curling up with a good book by the fire, every moment here is infused with relaxation and tranquility. With ski-in/ski-out access, you can easily explore the pristine slopes and explore the winter wonderland at your doorstep. After a day of outdoor adventures, return to the chalet to unwind and recharge, surrounded by the beauty of nature and the comforts of home. Mountain Chalet Retreat offers an idyllic sanctuary where you can reconnect with yourself and the natural world.",
+    "price": "$300",
+    "status": "available",
+    "area": "2000 sq ft",
+    "location": "Mountain Village",
+    "facilities": [
+        "Ski-in/Ski-out Access",
+        "Hot Tub",
+        "Fireplace"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2wuv5wyUC_GGw7ESPqsvqeSb1lsr4PHGym8xJu3782oLNz0nCVuhd-fxZ&s=10"
+},
+{
+    "id": 4,
+    "estate_title": "Lakefront Lodge",
+    "segment_name": "Lodge",
+    "description": "Embrace the serenity of lakefront living at the Lakefront Lodge, a rustic retreat nestled on the shores of a tranquil lake. Surrounded by towering trees and serene waters, this charming lodge offers the perfect escape from the hustle and bustle of everyday life. Step inside to discover a cozy ambiance, with knotty pine walls, a crackling fireplace, and panoramic views of the lake. Whether you're casting a line off the dock, paddling out for a leisurely canoe ride, or simply soaking in the beauty of nature from the comfort of your cabin, every moment here is a reminder of the simple joys of lakeside living. With a boat dock, campfire pit, and canoe rentals available, there's no shortage of outdoor activities to enjoy. Whether you're seeking adventure or relaxation, Lakefront Lodge offers a welcoming retreat where you can unwind and reconnect with nature.",
+    "price": "$150",
+    "status": "available",
+    "area": "1800 sq ft",
+    "location": "Lakefront",
+    "facilities": [
+        "Boat Dock",
+        "Campfire Pit",
+        "Canoe Rentals"
+    ],
+    "image": "https://images.pexels.com/photos/3229916/pexels-photo-3229916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+},
+{
+    "id": 5,
+    "estate_title": "Coastal Guesthouse",
+    "segment_name": "Guesthouse",
+    "description": "Experience the charm of coastal living at the Coastal Guesthouse, a quaint retreat perched on the edge of the sea. With panoramic views of the ocean and a warm, inviting ambiance, this charming guesthouse offers the perfect escape for beach lovers and nature enthusiasts alike. Step inside to discover cozy accommodations, coastal-inspired decor, and thoughtful amenities designed to make you feel right at home. Whether you're relaxing on the oceanfront patio, savoring a delicious breakfast buffet, or exploring the scenic coastal village on bicycle, every moment here is filled with relaxation and adventure. With its idyllic location and laid-back atmosphere, the Coastal Guesthouse offers a tranquil retreat where you can unwind and recharge by the sea.",
+    "price": "$120",
+    "status": "available",
+    "area": "1500 sq ft",
+    "location": "Coastal Village",
+    "facilities": [
+        "Oceanfront Patio",
+        "Breakfast Buffet",
+        "Spa"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3wcHgfVBIdtwporeY8XVEYpEsPaoBQnuDkPEGS9RK4RUzzpjKTppHdNBZ&s=10"
+},
+{
+    "id": 6,
+    "estate_title": "Desert Oasis Resort",
+    "segment_name": "Resort",
+    "description": "Escape to a luxurious oasis in the desert at the Desert Oasis Resort, where lush gardens, sparkling pools, and endless adventure await. Nestled amidst the arid landscape, this exquisite resort offers a sanctuary of tranquility and relaxation for discerning travelers. Step inside to discover elegant accommodations, world-class amenities, and impeccable service that will exceed your every expectation. Whether you're embarking on a camel ride through the dunes, indulging in gourmet dining under the stars, or finding your inner zen at a rejuvenating yoga retreat, every moment at the Desert Oasis Resort is designed to delight the senses and soothe the soul. With its breathtaking beauty and unparalleled hospitality, this desert oasis offers an unforgettable escape from the ordinary.",
+    "price": "$700",
+    "status": "available",
+    "area": "5500 sq ft",
+    "location": "Desert",
+    "facilities": [
+        "Camel Rides",
+        "Gourmet Dining",
+        "Yoga Retreats"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6gCRuajWLwkuC8kpiw109F0l-wHVXTrPozA&usqp=CAU"
+},
+{
+    "id": 7,
+    "estate_title": "Riverside Cabin",
+    "segment_name": "Vacation Rental",
+    "description": "Experience the rustic charm of riverside living at the Riverside Cabin, a cozy retreat nestled along the tranquil riverbank. Surrounded by towering trees and the soothing sounds of nature, this charming cabin offers the perfect escape from the hustle and bustle of everyday life. Step inside to discover a warm and inviting ambiance, with wood-paneled walls, a crackling fireplace, and panoramic views of the river. Whether you're casting a line off the riverfront deck, grilling up a feast in the BBQ area, or exploring the scenic hiking trails nearby, every moment here is filled with relaxation and adventure. With its idyllic setting and laid-back atmosphere, the Riverside Cabin offers a peaceful retreat where you can unwind and reconnect with nature.",
+    "price": "$100",
+    "status": "available",
+    "area": "1200 sq ft",
+    "location": "Riverside",
+    "facilities": [
+        "Riverfront Deck",
+        "BBQ Area",
+        "Hiking Trails"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq3ZAGyNlgpTXKDzh3HvxyLjyNJsIpggcFkg&usqp=CAU"
+},
+{
+    "id": 8,
+    "estate_title": "Historic Downtown Hotel",
+    "segment_name": "Hotel",
+    "description": "Step back in time and experience the elegance of a bygone era at the Historic Downtown Hotel, a timeless landmark in the heart of the city. Housed within a grand historic building, this elegant hotel blends old-world charm with modern luxury to create a truly unforgettable experience. Step inside to discover a world of opulence and sophistication, with ornate architecture, luxurious furnishings, and impeccable service at every turn. Whether you're attending a lavish ballroom event, savoring a gourmet meal in the fine dining restaurant, or receiving personalized concierge service, every moment at the Historic Downtown Hotel is steeped in luxury and refinement. With its prime location and timeless elegance, this historic hotel offers a captivating glimpse into the city's rich heritage and vibrant culture.",
+    "price": "$300",
+    "status": "available",
+    "area": "4000 sq ft",
+    "location": "Downtown",
+    "facilities": [
+        "Ballroom",
+        "Fine Dining Restaurant",
+        "Spa"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo9OklRfobRyPp_lBOy4C_muBieX5g_qGrwY7W_GcMl4l0yS9GrINsVEJB&s=10"
+},
+{
+    "id": 9,
+    "estate_title": "Forest Lodge Retreat",
+    "segment_name": "Lodge",
+    "description": "Find peace and serenity amidst the beauty of nature at the Forest Lodge Retreat, a secluded sanctuary nestled in the heart of the forest. Surrounded by towering trees and the sounds of wildlife, this charming lodge offers the perfect escape from the stresses of everyday life. Step inside to discover a cozy ambiance, with rustic furnishings, a crackling fire pit, and panoramic views of the forest. Whether you're exploring the nature trails, gathering around the fire pit for s'mores, or spotting wildlife from the comfort of your cabin, every moment here is a reminder of the simple joys of forest living. With its tranquil setting and laid-back atmosphere, the Forest Lodge Retreat offers a peaceful retreat where you can unwind and reconnect with nature.",
+    "price": "$180",
+    "status": "available",
+    "area": "2200 sq ft",
+    "location": "Forest",
+    "facilities": [
+        "Nature Trails",
+        "Fire Pit",
+        "Wildlife Viewing"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO2Nfup1DKm60BjUOFQ56DMq-Gi0x6yAu7bcNG5UEAJ-ssThKmoyCpXvQ&s=10"
+}]
