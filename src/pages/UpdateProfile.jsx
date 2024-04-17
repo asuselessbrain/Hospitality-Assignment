@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "./AuthProvider";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
@@ -13,6 +13,10 @@ const UpdateProfile = () => {
             image: user.photoURL
         }
     });
+
+    useEffect(() => {
+        document.title = 'Update Profile';
+    }, []);
 
     const [isUpdating, setIsUpdating] = useState(false);
 
