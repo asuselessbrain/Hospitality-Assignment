@@ -1,4 +1,5 @@
 # Navbar:
+
     • Implement a navbar with active routes.
     • Show website name, Home, Update Profile, and user profile conditionally.
     • If logged in, display user image, hover to show username, and logout button.
