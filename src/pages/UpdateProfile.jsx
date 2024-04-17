@@ -1,12 +1,11 @@
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "./AuthProvider";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const UpdateProfile = () => {
-
-    const { updateUserProfile, user, setUser } = useContext(AuthContext);
+    const { updateUserProfile, user } = useContext(AuthContext);
     const { register, handleSubmit } = useForm({
         defaultValues: {
             fullName: user.displayName,
@@ -17,17 +16,6 @@ const UpdateProfile = () => {
 
     const [isUpdating, setIsUpdating] = useState(false);
 
-    useEffect(() => {
-        document.title = 'Update Profile';
-    },[])
-
-    useEffect(() => {
-        const storedUser = localStorage.getItem("user");
-        if (storedUser) {
-            setUser(JSON.parse(storedUser));
-        }
-    }, [setUser]);
-
     const onSubmit = async (data) => {
         setIsUpdating(true);
         try {
@@ -35,6 +23,7 @@ const UpdateProfile = () => {
             await updateUserProfile(fullName, image, email);
             toast.success("Profile updated successfully");
         } catch (error) {
+            // Handle errors here
             console.error("An error occurred:", error);
             toast.error("Failed to update profile");
         } finally {
@@ -46,7 +35,7 @@ const UpdateProfile = () => {
         <div className='flex flex-col items-center mt-40 h-screen'>
             <div>
                 <img className='rounded-full mx-auto' src={user.photoURL} alt="User" style={{ width: '100px', height: '100px' }} />
-                <p className="text-center mt-4 text-2xl font-bold mb-3">Name: {user.displayName}</p>
+                <p className="text-center mt-4">Name: {user.displayName}</p>
             </div>
             <form onSubmit={handleSubmit(onSubmit)} className="max-w-4xl mx-auto bg-white shadow-[0_2px_18px_-3px_rgba(6,81,237,0.4)] sm:p-8 p-4 rounded-md">
                 <div className="grid md:grid-cols-2 gap-y-7 gap-x-12">
